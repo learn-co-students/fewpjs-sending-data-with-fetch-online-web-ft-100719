@@ -22,3 +22,5 @@ function submitData(name, email) {
     })
 
 }
+
+//submitData();
