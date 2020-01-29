@@ -13,19 +13,16 @@ function submitData(userName, userEmail){
   body: JSON.stringify(formData)
  }
 
-  fetch("http://localhost:3000/users", configObj)
+  return fetch("http://localhost:3000/users", configObj)
     .then(function(resp) {
       return resp.json();
     })
     .then(function(obj) {
-      // let p = document.createElement("p")
-      // p.innerText = obj.id
-      // document.body.appendChild(p)
-      console.log(obj)
+      let userId = document.createTextNode(`${obj["id"]}`)
+      document.body.prepend(userId)
     })
     .catch(function(error) {
-      let message = document.createElement("p")
-      message.innerText = error.message
-      document.body.appendChild(message)
+      let message = document.createTextNode(`${error.message}`)
+      document.body.prepend(message)
     })
 }
