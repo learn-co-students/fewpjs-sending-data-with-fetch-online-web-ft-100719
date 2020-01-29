@@ -18,9 +18,10 @@ function submitData(userName, userEmail){
       return resp.json();
     })
     .then(function(obj) {
-      let p = document.createElement("p")
-      p.innerText = obj.id
-      document.body.appendChild(p)
+      // let p = document.createElement("p")
+      // p.innerText = obj.id
+      // document.body.appendChild(p)
+      console.log(obj)
     })
     .catch(function(error) {
       let message = document.createElement("p")
