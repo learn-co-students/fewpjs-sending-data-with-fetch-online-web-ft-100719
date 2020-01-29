@@ -5,14 +5,13 @@ const nock = require( 'nock' );
 chai.use( spies );
 
 describe( "submitData()", () => {
+
   let rando
   let xhr, requests
   beforeEach( function () {
     window.fetch = require( 'node-fetch' );
 
     rando = Math.ceil( Math.random() * 1000 )
-
-
 
     chai.spy.on( window, 'fetch' );
     window.onerror = undefined;
@@ -88,4 +87,5 @@ describe( "submitData()", () => {
     expect( document.body.innerHTML )
       .to.include( message )
   } )
+
 } )
