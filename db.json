@@ -1,5 +1,6 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
       "id": 1
@@ -8,9 +9,32 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
+    },
+    {
+      "dogName": "Milo",
+      "dogBreed": "Bichon Frise",
+      "submit": "Submit",
+      "id": 3
+    },
+    {
+      "dogName": "Patton",
+      "dogBreed": "Coton de Tulear",
+      "submit": "Submit",
+      "id": 4
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 5
+    },
+    {
+      "dogName": "Byron",
+      "dogBreed": "Poodle",
+      "id": 6
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
       "id": 1
@@ -21,10 +45,38 @@
       "id": 2
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "name": "Paige Turner",
+      "email": "paige@home.com",
+      "id": 1
+    },
+    {
+      "name": "Paige Turner",
+      "email": "paige@home.com",
+      "id": 2
+    },
+    {
+      "name": "Arthur Rightus",
+      "email": "arthur@home.com",
+      "id": 3
+    },
+    {
+      "name": "Rita Book",
+      "email": "rita@home.com",
+      "id": 4
+    },
+    {
+      "name": "Rhoda Letterman",
+      "email": "rhoda@home.com",
+      "id": 5
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
 }
