@@ -19,7 +19,7 @@ function submitData (name, email) {
         body: JSON.stringify(userInfo)
     }
 
-    return fetch("http://localhost:3000/users", configObj)
+    fetch("http://localhost:3000/users", configObj)
     .then(function(response) {
         return response.json()
     })
@@ -29,6 +29,8 @@ function submitData (name, email) {
     .catch(function(error) {
         document.body.innerHTML = error.message
     })
+
+    return fetch()
 }
 
 submitData()
