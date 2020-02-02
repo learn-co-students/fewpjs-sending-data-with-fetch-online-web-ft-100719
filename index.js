@@ -19,7 +19,7 @@ function submitData (name, email) {
         body: JSON.stringify(userInfo)
     }
 
-    fetch("http://localhost:3000/users", configObj)
+    return fetch("http://localhost:3000/users", configObj)
     .then(function(response) {
         return response.json()
     })
@@ -30,7 +30,7 @@ function submitData (name, email) {
         document.body.innerHTML = error.message
     })
 
-    return fetch()
+    
 }
 
 submitData()
