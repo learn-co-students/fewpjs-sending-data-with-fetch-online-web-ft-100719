@@ -9,24 +9,6 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
-    },
-    {
-      "dogName": "Rufus",
-      "dogBreed": "Husky",
-      "submit": "Submit",
-      "id": 3
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "submit": "Submit",
-      "id": 4
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "submit": "Submit",
-      "id": 5
     }
   ],
   "cats": [
