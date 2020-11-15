@@ -20,6 +20,8 @@
   },
   "dependencies": {
     "chai-spies": "^1.0.0",
+    "g": "^2.0.1",
+    "jason-server": "^3.0.0",
     "mocha-jsdom": "^2.0.0",
     "nock": "^10.0.2",
     "node-fetch": "^2.3.0",
